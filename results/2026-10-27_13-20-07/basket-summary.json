@@ -1,0 +1,396 @@
+{
+    "metrics": {
+        "http_req_duration{name:basket add}": {
+            "p(95)": 78.13925,
+            "avg": 26.965801186131426,
+            "min": 0.4416,
+            "med": 18.279449999999997,
+            "max": 169.5355,
+            "p(90)": 59.42705,
+            "thresholds": {
+                "p(95)<800": false
+            }
+        },
+        "data_received": {
+            "count": 3678765,
+            "rate": 13294.39778139788
+        },
+        "http_req_failed": {
+            "fails": 5542,
+            "passes": 0,
+            "thresholds": {
+                "rate<0.01": false
+            },
+            "value": 0
+        },
+        "iterations": {
+            "count": 1096,
+            "rate": 3.9607476879909633
+        },
+        "http_req_blocked": {
+            "avg": 0.011929718513172139,
+            "min": 0,
+            "med": 0,
+            "max": 21.1855,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "http_req_duration{name:basket update}": {
+            "max": 284.5164,
+            "p(90)": 133.9199,
+            "p(95)": 157.9068,
+            "avg": 67.94161414233575,
+            "min": 7.5252,
+            "med": 52.06415,
+            "thresholds": {
+                "p(95)<800": false
+            }
+        },
+        "http_req_duration{expected_response:true}": {
+            "min": 0.4416,
+            "med": 35.67895,
+            "max": 396.975,
+            "p(90)": 88.24288000000001,
+            "p(95)": 115.56289499999994,
+            "avg": 46.30809330566575
+        },
+        "checks": {
+            "passes": 6636,
+            "fails": 0,
+            "thresholds": {
+                "rate>0.99": false
+            },
+            "value": 1
+        },
+        "http_req_duration{name:basket remove}": {
+            "p(90)": 104.49085,
+            "p(95)": 127.132925,
+            "avg": 58.664003923357676,
+            "min": 8.3269,
+            "med": 48.2397,
+            "max": 219.826,
+            "thresholds": {
+                "p(95)<800": false
+            }
+        },
+        "http_req_duration{name:basket view}": {
+            "avg": 36.01437947080284,
+            "min": 4.2088,
+            "med": 30.461100000000002,
+            "max": 183.0193,
+            "p(90)": 61.43280000000001,
+            "p(95)": 76.07019000000001,
+            "thresholds": {
+                "p(95)<800": false
+            }
+        },
+        "http_req_connecting": {
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.005160158787441357,
+            "min": 0,
+            "med": 0,
+            "max": 2.3613
+        },
+        "http_req_tls_handshaking": {
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0
+        },
+        "vus": {
+            "value": 2,
+            "min": 0,
+            "max": 30
+        },
+        "http_req_duration": {
+            "p(90)": 88.24288000000001,
+            "p(95)": 115.56289499999994,
+            "avg": 46.30809330566575,
+            "min": 0.4416,
+            "med": 35.67895,
+            "max": 396.975
+        },
+        "http_req_waiting": {
+            "p(95)": 113.87737999999997,
+            "avg": 44.78435339227707,
+            "min": 0.4416,
+            "med": 34.16705,
+            "max": 395.9713,
+            "p(90)": 86.96964000000003
+        },
+        "iteration_duration": {
+            "p(95)": 7220.671225,
+            "avg": 6215.198123357662,
+            "min": 4515.1338,
+            "med": 6212.4277999999995,
+            "max": 7858.6085,
+            "p(90)": 6986.312550000001
+        },
+        "vus_max": {
+            "value": 30,
+            "min": 30,
+            "max": 30
+        },
+        "http_req_sending": {
+            "avg": 0.010644045470949118,
+            "min": 0,
+            "med": 0,
+            "max": 3.5322,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "http_req_receiving": {
+            "med": 0,
+            "max": 15.4794,
+            "p(90)": 5.2723700000000004,
+            "p(95)": 7.670254999999997,
+            "avg": 1.5130958679177187,
+            "min": 0
+        },
+        "http_reqs": {
+            "count": 5542,
+            "rate": 20.02779533471343
+        },
+        "data_sent": {
+            "count": 5018218,
+            "rate": 18134.941004867367
+        }
+    },
+    "setup_data": {
+        "productIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            29,
+            30,
+            32,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56
+        ],
+        "users": [
+            {
+                "email": "basket_1793087960984_0@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_1@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_2@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_3@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_4@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_5@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_6@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_7@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_8@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_9@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_10@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_11@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "password": "Passw0rd!",
+                "email": "basket_1793087960984_12@test.local"
+            },
+            {
+                "email": "basket_1793087960984_13@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_14@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_15@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_16@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "password": "Passw0rd!",
+                "email": "basket_1793087960984_17@test.local"
+            },
+            {
+                "email": "basket_1793087960984_18@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_19@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "password": "Passw0rd!",
+                "email": "basket_1793087960984_20@test.local"
+            },
+            {
+                "email": "basket_1793087960984_21@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "password": "Passw0rd!",
+                "email": "basket_1793087960984_22@test.local"
+            },
+            {
+                "email": "basket_1793087960984_23@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_24@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_25@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_26@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_27@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_28@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "basket_1793087960984_29@test.local",
+                "password": "Passw0rd!"
+            }
+        ]
+    },
+    "root_group": {
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {
+            "setup": {
+                "path": "::setup",
+                "id": "5c0f8025f7e0b6654089e5b00e950f1a",
+                "groups": {},
+                "checks": {
+                        "setup register: status 201": {
+                            "passes": 30,
+                            "fails": 0,
+                            "name": "setup register: status 201",
+                            "path": "::setup::setup register: status 201",
+                            "id": "c4f4db0ff8225ff61e77b444018b5f10"
+                        }
+                    },
+                "name": "setup"
+            }
+        },
+        "checks": {
+            "login: status 200": {
+                "name": "login: status 200",
+                "path": "::login: status 200",
+                "id": "4d9cb0041884c26a6b714904c7aba027",
+                "passes": 30,
+                "fails": 0
+            },
+            "basket view: status 200": {
+                "name": "basket view: status 200",
+                "path": "::basket view: status 200",
+                "id": "5b2a51a8eeb4dc62310db4d9bb37e230",
+                "passes": 1096,
+                "fails": 0
+            },
+            "basket add: status 200": {
+                "name": "basket add: status 200",
+                "path": "::basket add: status 200",
+                "id": "7ccf6bd2eeb4f7bc34c4afb374f50750",
+                "passes": 1096,
+                "fails": 0
+            },
+            "basket update: status 200": {
+                "fails": 0,
+                "name": "basket update: status 200",
+                "path": "::basket update: status 200",
+                "id": "06c1b3507b799d44f271f27261290bbf",
+                "passes": 1096
+            },
+            "basket update: quantity is 2": {
+                "id": "72905bf4319127753891e502cfb9e920",
+                "passes": 1096,
+                "fails": 0,
+                "name": "basket update: quantity is 2",
+                "path": "::basket update: quantity is 2"
+            },
+            "basket view: contains the product": {
+                "name": "basket view: contains the product",
+                "path": "::basket view: contains the product",
+                "id": "e32c9cae9897c7de121455541b4425f3",
+                "passes": 1096,
+                "fails": 0
+            },
+            "basket remove: status 200": {
+                "name": "basket remove: status 200",
+                "path": "::basket remove: status 200",
+                "id": "d9f773cdedea7408a0d95f60a0993225",
+                "passes": 1096,
+                "fails": 0
+            }
+        },
+        "name": "",
+        "path": ""
+    }
+}

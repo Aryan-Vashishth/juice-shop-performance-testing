@@ -1,0 +1,29 @@
+{
+    "run_id":  "2026-10-27_13-20-07",
+    "started":  "2026-10-27T13:20:07",
+    "finished":  "2026-10-27T13:33:58",
+    "base_url":  "http://localhost:3000",
+    "k6":  "v2.3.0",
+    "juice_shop":  "v20.3.0",
+    "started_juice_shop":  false,
+    "tests":  [
+                  {
+                      "test":  "product-search",
+                      "started":  "2026-10-27T13:20:11",
+                      "finished":  "2026-10-27T13:24:45",
+                      "exit_code":  0
+                  },
+                  {
+                      "test":  "login",
+                      "started":  "2026-10-27T13:24:46",
+                      "finished":  "2026-10-27T13:29:19",
+                      "exit_code":  0
+                  },
+                  {
+                      "test":  "basket",
+                      "started":  "2026-10-27T13:29:20",
+                      "finished":  "2026-10-27T13:33:58",
+                      "exit_code":  0
+                  }
+              ]
+}

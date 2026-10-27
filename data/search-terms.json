@@ -1,0 +1,11 @@
+{
+  "_comment": "Search terms for product-search.js. 'hits' match at least one product in Juice Shop v20.3.0; 'misses' match none.",
+  "hits": [
+    "apple", "juice", "banana", "smoothie", "lemon", "melon", "orange", "grape",
+    "berry", "carrot", "owasp", "shirt", "hoodie", "sticker", "mug", "coaster",
+    "magnet", "tattoo", "lego", "cordial", "1000ml", "500ml", "edition", "ctf"
+  ],
+  "misses": [
+    "pizza", "sofa", "umbrella", "headphones", "xyzzy", "kiwi juice"
+  ]
+}

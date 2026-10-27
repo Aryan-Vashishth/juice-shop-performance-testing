@@ -1,0 +1,327 @@
+{
+    "metrics": {
+        "http_req_duration{name:login (wrong password)}": {
+            "med": 17.9723,
+            "max": 227.3492,
+            "p(90)": 65.81546000000002,
+            "p(95)": 85.20055999999997,
+            "avg": 28.593701006036206,
+            "min": 0.407,
+            "thresholds": {
+                "p(95)<800": false
+            }
+        },
+        "http_req_duration{name:login}": {
+            "avg": 34.86146290265485,
+            "min": 0.3536,
+            "med": 26.2044,
+            "max": 331.1145,
+            "p(90)": 66.91861999999999,
+            "p(95)": 88.12347999999993,
+            "thresholds": {
+                "p(95)<800": false
+            }
+        },
+        "http_req_tls_handshaking": {
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0,
+            "min": 0
+        },
+        "iteration_duration": {
+            "p(95)": 2942.6436,
+            "avg": 2037.8256626730868,
+            "min": 1020.0149,
+            "med": 2036.8422,
+            "max": 3151.9889,
+            "p(90)": 2851.63918
+        },
+        "vus_max": {
+            "value": 30,
+            "min": 30,
+            "max": 30
+        },
+        "http_req_receiving": {
+            "med": 0,
+            "max": 14.6243,
+            "p(90)": 1.857800000000003,
+            "p(95)": 3.9119399999999978,
+            "avg": 0.8028287841994506,
+            "min": 0
+        },
+        "data_received": {
+            "rate": 19043.411858154202,
+            "count": 5164404
+        },
+        "iterations": {
+            "rate": 12.249664083752599,
+            "count": 3322
+        },
+        "checks": {
+            "passes": 9002,
+            "fails": 0,
+            "thresholds": {
+                "rate>0.99": false
+            },
+            "value": 1
+        },
+        "http_reqs": {
+            "count": 6177,
+            "rate": 22.77729531768206
+        },
+        "http_req_duration{expected_response:true}": {
+            "max": 331.1145,
+            "p(90)": 51.47816000000008,
+            "p(95)": 70.81909999999988,
+            "avg": 20.451492650153725,
+            "min": 0,
+            "med": 9.756
+        },
+        "http_req_duration{name:whoami}": {
+            "avg": 2.7460950088495584,
+            "min": 0,
+            "med": 2.2619,
+            "max": 54.5182,
+            "p(90)": 4.663259999999999,
+            "p(95)": 6.201959999999999,
+            "thresholds": {
+                "p(95)<500": false
+            }
+        },
+        "http_req_blocked": {
+            "p(95)": 0,
+            "avg": 0.04047084345151367,
+            "min": 0,
+            "med": 0,
+            "max": 31.8361,
+            "p(90)": 0
+        },
+        "http_req_waiting": {
+            "min": 0,
+            "med": 8.6647,
+            "max": 330.7212,
+            "p(90)": 50.35758000000004,
+            "p(95)": 69.74555999999998,
+            "avg": 19.626690756030403
+        },
+        "http_req_duration": {
+            "p(90)": 51.47816000000008,
+            "p(95)": 70.81909999999988,
+            "avg": 20.451492650153725,
+            "min": 0,
+            "med": 9.756,
+            "max": 331.1145
+        },
+        "http_req_connecting": {
+            "avg": 0.004497506880362634,
+            "min": 0,
+            "med": 0,
+            "max": 1.4393,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "vus": {
+            "max": 30,
+            "value": 2,
+            "min": 0
+        },
+        "data_sent": {
+            "rate": 11418.696578954967,
+            "count": 3096649
+        },
+        "http_req_sending": {
+            "max": 5.658,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.02197310992391128,
+            "min": 0,
+            "med": 0
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 6177,
+            "thresholds": {
+                "rate<0.01": false
+            },
+            "value": 0
+        }
+    },
+    "setup_data": {
+        "users": [
+            {
+                "email": "login_1793087687314_0@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_1@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_2@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_3@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_4@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_5@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_6@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_7@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_8@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_9@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "password": "Passw0rd!",
+                "email": "login_1793087687314_10@test.local"
+            },
+            {
+                "email": "login_1793087687314_11@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_12@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_13@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_14@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_15@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_16@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_17@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_18@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_19@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_20@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_21@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_22@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_23@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_24@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "password": "Passw0rd!",
+                "email": "login_1793087687314_25@test.local"
+            },
+            {
+                "email": "login_1793087687314_26@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "password": "Passw0rd!",
+                "email": "login_1793087687314_27@test.local"
+            },
+            {
+                "email": "login_1793087687314_28@test.local",
+                "password": "Passw0rd!"
+            },
+            {
+                "email": "login_1793087687314_29@test.local",
+                "password": "Passw0rd!"
+            }
+        ]
+    },
+    "root_group": {
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {
+            "setup": {
+                "name": "setup",
+                "path": "::setup",
+                "id": "5c0f8025f7e0b6654089e5b00e950f1a",
+                "groups": {},
+                "checks": {
+                        "setup register: status 201": {
+                            "id": "c4f4db0ff8225ff61e77b444018b5f10",
+                            "passes": 30,
+                            "fails": 0,
+                            "name": "setup register: status 201",
+                            "path": "::setup::setup register: status 201"
+                        }
+                    }
+            }
+        },
+        "checks": {
+            "login: status 200": {
+                "passes": 2825,
+                "fails": 0,
+                "name": "login: status 200",
+                "path": "::login: status 200",
+                "id": "4d9cb0041884c26a6b714904c7aba027"
+            },
+            "login: returns token": {
+                "passes": 2825,
+                "fails": 0,
+                "name": "login: returns token",
+                "path": "::login: returns token",
+                "id": "65fb7ccceb9c86ad03e0f5ae87b1c3c6"
+            },
+            "whoami: returns the logged-in user": {
+                "name": "whoami: returns the logged-in user",
+                "path": "::whoami: returns the logged-in user",
+                "id": "fbdde178995aa45c88839df4fba535f2",
+                "passes": 2825,
+                "fails": 0
+            },
+            "login (wrong password): status 401": {
+                "fails": 0,
+                "name": "login (wrong password): status 401",
+                "path": "::login (wrong password): status 401",
+                "id": "b8d66101a471800cde8b7120dcf67529",
+                "passes": 497
+            }
+        },
+        "name": "",
+        "path": ""
+    }
+}

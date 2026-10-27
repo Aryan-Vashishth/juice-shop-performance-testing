@@ -1,0 +1,16 @@
+{
+    "run_id":  "2026-10-27_13-10-05",
+    "started":  "2026-10-27T13:10:05",
+    "finished":  "2026-10-27T13:18:10",
+    "base_url":  "http://localhost:3000",
+    "k6":  "v2.3.0",
+    "juice_shop":  "v20.3.0",
+    "started_juice_shop":  false,
+    "note":  "Written by hand after the run: this run predates per-run folders, so the start time is estimated from the end time and test length. Juice Shop was freshly restarted before this run. After the run Juice Shop held 2,730 MB (2,820 MB after 30 s idle) and a single search took 81 ms, against 177 MB and 42-48 ms before it.",
+    "tests":  [
+                  {
+                      "exit_code":  0,
+                      "test":  "stress"
+                  }
+              ]
+}

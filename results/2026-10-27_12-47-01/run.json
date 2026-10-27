@@ -1,0 +1,17 @@
+{
+    "run_id":  "2026-10-27_12-47-01",
+    "started":  "2026-10-27T12:47:01",
+    "finished":  "2026-10-27T13:07:46",
+    "base_url":  "http://localhost:3000",
+    "k6":  "v2.3.0",
+    "juice_shop":  "v20.3.0",
+    "started_juice_shop":  false,
+    "note":  "Written by hand after the run: this run predates per-run folders. Test times are estimated from when each summary file was written. The stress test used steps of 50-800 req/s and is saved as stress-overload. Server CPU was recalculated from the sample timestamps.",
+    "tests":  [
+                  "smoke",
+                  "product-search",
+                  "login",
+                  "basket",
+                  "stress-overload"
+              ]
+}
